@@ -15,6 +15,6 @@ public class changyonglei6 {
         Arrays.sort(b);
         Scanner scanner = new Scanner(System.in);
         int sc = scanner.nextInt();
-        System.out.println(b[sc]);
+        System.out.println(Arrays.binarySearch(b,sc));
     }
 }
